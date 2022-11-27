@@ -30,7 +30,7 @@ namespace ParticleSystemV3
             graphics.PreferredBackBufferHeight = (int)GameValues.ScreenSize.Y;
             bloom = new BloomComponent(this);
             Components.Add(bloom);
-            bloom.Settings = new BloomSettings(null, 0.001f, 2, 2, 1, 2.5f, 1);
+            bloom.Settings = new BloomSettings(null, 0.001f, 2, 2, 1, 1.5f, 1);
             IsMouseVisible = true;
         }
 
